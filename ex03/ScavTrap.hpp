@@ -6,7 +6,7 @@
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 12:05:01 by bguyot            #+#    #+#             */
-/*   Updated: 2022/05/20 16:11:26 by bguyot           ###   ########.fr       */
+/*   Updated: 2022/05/23 07:06:39 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 #include <iostream>
 #include <string>
 
-class ScavTrap : public virtual ClapTrap
+class ScavTrap : virtual public ClapTrap
 {
 	private:
 
